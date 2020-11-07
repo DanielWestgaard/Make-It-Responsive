@@ -7,3 +7,4 @@ Inova is a newly formed company in need of a website. Their business is focused 
 -	Schedule for the future innovation camps
 -	Contact information
 Inova really cares about accessibility and universal design, and they therefore ask that their new website is designed to be accessible to all."
+Google Docs dokument: https://docs.google.com/document/d/1Ox882JBx6vSjAW8jghQ7koE5rkoVpicmhwcimP6TUJU/edit 
