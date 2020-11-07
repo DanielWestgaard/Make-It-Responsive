@@ -1,0 +1,2 @@
+# Make-It-Responsive
+"In this assignment, you will be challenged to create the most accessible website, in groups of three to five. You have to fulfill the business case (see appendix) to the best of your ability and make the most accessible and satisfying user experience. This includes user testing the responsiveness of the website, automated testing and maintaining an accessibility score of higher than 90% on all pages in the website (http://checkers.eiii.eu/)."
