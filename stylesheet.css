@@ -1,18 +1,29 @@
-* {
+html * {
     margin: 0;
     padding: 0;
+    height: 100%;
 }
 
 body{
     font: normal 18px Arial, Helvetica, sans-serif;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+#title {
+    color: #fff;
+    font-size: 70px;
+    text-transform: uppercase;
 }
 
 .container{
     margin: auto;
     width: 80%;
     overflow: hidden; /*Strekker seg helt ut til kantene*/
+    text-align: center;
 }
 
 #main-header{
@@ -22,4 +33,5 @@ body{
 #main-footer{
     background-color: #82ffe0;
     padding-left: 10px;
+    margin-top: auto;
 }
