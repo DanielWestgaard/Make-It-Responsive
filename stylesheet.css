@@ -1,0 +1,21 @@
+body{
+    font: normal 18px Arial, Helvetica, sans-serif;
+    margin: 0; /*Slipper å ha hvite kanter rundt eventuelle fargede bokser*/
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    margin: auto;
+    width: 80%;
+    overflow: hidden; /*Strekker seg helt ut til kantene*/
+}
+
+#main-header{
+    background-color: lightgray;
+}
+
+#main-footer{
+    background-color: lightgray;
+    padding-left: 10px;
+}
