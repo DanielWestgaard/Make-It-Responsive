@@ -84,3 +84,31 @@ html, body {
     margin: 5%;
     float: left;
 }
+
+.kolonne {
+    float: left;
+    width: 20%;
+    margin-bottom: 16px;
+    padding: 0 8px;
+  }
+  
+  @media screen and (max-width: 650px) {
+    .kolonne {
+      width: 100%;
+      display: block;
+    }
+  }
+  
+  .kortet {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  }
+  
+  .description {
+    padding: 0 16px;
+  }
+  
+  .description::after, .our-staff::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
