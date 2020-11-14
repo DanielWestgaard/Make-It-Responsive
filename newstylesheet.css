@@ -1,5 +1,6 @@
 html, body {
     height: 100%;
+    width: 100%;
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
@@ -57,13 +58,33 @@ html, body {
 .schedule {
     margin: 15% 5% 15% 10%;
     width: 25%;
-    height: 30%;
+    height: 30vh;
     float: left;
+    font-size: 20px;
+}
+
+.schedule article {
+    height: 200%;
 }
 
 #img-3 {
     width: 50%;
-    height: 40%;
+    height: 30vh%;
     margin: 5%;
     float: right;
+}
+
+.info {
+    margin: 15% 10% 15% 5%;
+    width: 25%;
+    height: 30%;
+    float: right;
+    font-size: 20px;
+}
+
+#img-2 {
+    width: 50%;
+    height: 40%;
+    margin: 5%;
+    float: left;
 }
