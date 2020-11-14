@@ -1,12 +1,51 @@
-html {
+html, body {
+    height: 100%;
+    padding: 0;
     margin: 0;
+    scroll-behavior: smooth;
+}
+
+/*https://www.w3schools.com/css/css_navbar_horizontal.asp*/
+.navigation {
+    position: fixed;
+    z-index: 1;
+    color: white;
+    font-size: 150%;
+    width: 100%;
+}
+
+.navigation ul {
+    list-style-type: none;
+    margin: 1%;
     padding: 0;
 }
 
-html, body {
-    height: 100%;
+.navigation li {
+    display: inline;
+    margin: 1%;
 }
 
+/* https://www.w3schools.com/howto/howto_css_hero_image.asp */
 .front-image {
-    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/Innovation-Camp-presentation-1.jpg);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.2)), url(Images/Image-1.jpg);
+    height: 100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.front-image-text {
+    text-align: center;
+    position: absolute;
+    top: 45%;
+    left: 50%;
+    color: white;
+    transform: translate(-50%, -50%);
+    font-size: 200%;
+}
+
+#button {
+    background-color: white;
+    padding: 1.5%;
 }
