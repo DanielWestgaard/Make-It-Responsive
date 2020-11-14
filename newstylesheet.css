@@ -1,0 +1,12 @@
+html {
+    margin: 0;
+    padding: 0;
+}
+
+html, body {
+    height: 100%;
+}
+
+.front-image {
+    background-image: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)), url(Images/Innovation-Camp-presentation-1.jpg);
+}
