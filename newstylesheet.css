@@ -16,13 +16,15 @@ html, body {
 
 .navigation ul {
     list-style-type: none;
-    margin: 1%;
-    padding: 0;
+    margin: 0;
+    padding: 1% 0%;
+    background-color: white;
 }
 
 .navigation li {
     display: inline;
-    margin: 1%;
+    margin: 0%;
+    padding: 1%;
 }
 
 /* https://www.w3schools.com/howto/howto_css_hero_image.asp */
@@ -48,4 +50,8 @@ html, body {
 #button {
     background-color: white;
     padding: 1.5%;
+}
+
+.schedule {
+    margin: 20% 10%;
 }
