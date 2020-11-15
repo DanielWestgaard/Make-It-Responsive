@@ -141,7 +141,7 @@ header {
     padding: 0 8px;
   }
   
-@media screen and (max-width: 800px) {
+@media screen and (max-width: 1230px) {
     .kolonne {
         width: 45%;
         display: block;
