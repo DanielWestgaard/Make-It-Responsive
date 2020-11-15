@@ -104,9 +104,9 @@ header {
 }
 
 .info {
-    padding-left: 20px;
-    width: 90%;
-    float: left;
+    margin: 10% 5% 19% 5%;
+    width: 30%;
+    float: right;
     font-size: 20px;
     line-height: 35px;
     text-align: center;
@@ -114,7 +114,6 @@ header {
 .info h1{
     margin-bottom: 1px;
 }
-
 
 #img-2 {
     width: 50%;
@@ -126,7 +125,7 @@ header {
 /* https://www.w3schools.com/howto/howto_css_team.asp */
 .kolonne {
     float: left;
-    width: 20%;
+    width: 24%;
     margin-bottom: 16px;
     padding: 0 8px;
   }
