@@ -122,6 +122,12 @@ header {
     float: left;
 }
 
+#title-our-staff {
+    width: 40%;
+    padding-left: 0.3%;
+    color: #6f7ea7;
+}
+
 /* https://www.w3schools.com/howto/howto_css_team.asp */
 .kolonne {
     float: left;
@@ -157,6 +163,7 @@ header {
     margin-top: auto;
     text-align: center;
     color: #ffffff;
+    margin-top: 5%;
 }
 
 ul{
