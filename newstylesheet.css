@@ -153,13 +153,17 @@ header {
 
 #main-footer{
     background-color:#6f7ea7;
-    padding: 20px;
+    padding: 2%;
     margin-top: auto;
     text-align: center;
     color: #ffffff;
 }
+
 ul{
     list-style: none; /*Fjerner bullet points*/
+    margin-top: 2%;
 }
 
-
+footer li {
+    margin-bottom: 1%;
+}
