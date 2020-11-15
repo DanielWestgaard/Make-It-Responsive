@@ -30,6 +30,12 @@ html, body {
     font-size: 180%;
 }
 
+@media screen and (max-width: 1370px) {
+    .front-image-text {
+        font-size: 150%;
+    }
+}
+
 #button {
     color: wheat;
     padding: 1.5%;
@@ -135,26 +141,38 @@ header {
     padding: 0 8px;
   }
   
-  @media screen and (max-width: 650px) {
+@media screen and (max-width: 800px) {
     .kolonne {
-      width: 100%;
-      display: block;
+        width: 45%;
+        display: block;
+   }
+}
+ 
+@media screen and (max-width: 550px) {
+    .kolonne {
+        width: 60%;
+        margin: 0% 20%;
+        display: block;
     }
-  }
-  
-  .kortet {
+
+    #title-our-staff {
+        width: 80%;
+    }
+}
+
+.kortet {
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
-  }
+}
   
-  .description {
+.description {
     padding: 0 16px;
-  }
+}
   
-  .description::after, .our-staff::after {
+.description::after, .our-staff::after {
     content: "";
     clear: both;
     display: table;
-  }
+}
 
 #main-footer{
     background-color:#6f7ea7;
@@ -176,4 +194,109 @@ footer li {
 
 .schedule1 {
     color: #6f7ea7;
+}
+
+@media screen and (max-width: 1300px) {
+    .front-image-text {
+        font-size: 130%;
+    }
+
+    .schedule {
+        margin: 10% 10% 0% 10%;
+        width: 80%;
+        height: 30vh;
+        float: none;
+        font-size: 20px;
+        line-height: 35px;
+        display: inline-block;
+    }
+    
+    #img-3 {
+        width: 80%;
+        margin: 5% 10%;
+        float: none;
+    }
+    
+    .info {
+        margin: 10% 10% 0% 10%;
+        width: 80%;
+        float: none;
+        font-size: 20px;
+        line-height: 35px;
+    }
+    
+    #img-2 {
+        width: 80%;
+        margin: 5% 10% 15% 10%;
+        float: none;
+    }
+}
+
+@media screen and (max-width: 995px) {
+    .front-image-text {
+        font-size: 100%;
+    }
+
+    nav a { 
+        margin: 0 8px;
+    }
+}
+
+@media screen and (max-width: 840px) {
+    nav a { 
+        letter-spacing: 2px;
+        margin: 0 10px;
+    }
+}
+
+@media screen and (max-width: 810px) {
+    .front-image {
+        display: none;
+    }
+
+    nav a { 
+        letter-spacing: 2px;
+        margin: 0 5px;
+    }
+
+    .schedule {
+        margin: 15% 10% 0% 10%;
+    }
+}
+
+@media screen and (max-width: 710px) {
+    nav a { 
+        letter-spacing: 2px;
+        margin: 0 1px;
+    }
+}
+
+@media screen and (max-width: 667px) {
+    nav a { 
+        letter-spacing: 1px;
+        margin: 0 0px;
+    }
+}
+
+@media screen and (max-width: 620px) {
+    nav a { 
+        letter-spacing: 0px;
+        margin: 0 0px;
+    }
+}
+
+@media screen and (max-width: 580px) {
+    nav { 
+        display: none;
+    }
+
+    .schedule {
+        margin: 20% 10% 0% 10%;
+    }
+}
+
+@media screen and (max-width: 400px) {
+    .schedule {
+        margin: 25% 10% 0% 10%;
+    }
 }
