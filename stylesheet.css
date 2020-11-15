@@ -76,3 +76,7 @@ div.desc {
     margin-top: auto;
     text-align: center;
 }
+
+nav a {
+    text-decoration: none;
+}
