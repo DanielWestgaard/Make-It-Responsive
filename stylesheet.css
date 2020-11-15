@@ -242,10 +242,9 @@ footer li {
     }
 }
 
-@media screen and (max-width: 840px) {
-    nav a { 
-        letter-spacing: 2px;
-        margin: 0 10px;
+@media screen and (max-width: 900px) {
+    nav {
+        display: none;
     }
 }
 
@@ -254,42 +253,12 @@ footer li {
         display: none;
     }
 
-    nav a { 
-        letter-spacing: 2px;
-        margin: 0 5px;
-    }
-
     .schedule {
         margin: 15% 10% 0% 10%;
     }
 }
 
-@media screen and (max-width: 710px) {
-    nav a { 
-        letter-spacing: 2px;
-        margin: 0 1px;
-    }
-}
-
-@media screen and (max-width: 667px) {
-    nav a { 
-        letter-spacing: 1px;
-        margin: 0 0px;
-    }
-}
-
-@media screen and (max-width: 620px) {
-    nav a { 
-        letter-spacing: 0px;
-        margin: 0 0px;
-    }
-}
-
 @media screen and (max-width: 580px) {
-    nav { 
-        display: none;
-    }
-
     .schedule {
         margin: 20% 10% 0% 10%;
     }
