@@ -4,6 +4,8 @@ html, body {
     padding: 0;
     margin: 0;
     scroll-behavior: smooth;
+    line-height: 22px;
+    font-size: 25px;
 }
 
 /*https://www.w3schools.com/css/css_navbar_horizontal.asp*/
@@ -11,7 +13,7 @@ html, body {
     position: fixed;
     z-index: 1;
     color: white;
-    font-size: 150%;
+    font-size: 100%;
     width: 100%;
 }
 
@@ -71,12 +73,15 @@ html, body {
 }
 
 .info {
-    margin: 15% 10% 15% 5%;
-    width: 25%;
-    height: 30%;
-    float: right;
+    padding-left: 20px;
+    width: 90%;
+    float: left;
     font-size: 20px;
 }
+.info h1{
+    margin-bottom: 1px;
+}
+
 
 #img-2 {
     width: 50%;
