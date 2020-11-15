@@ -87,7 +87,7 @@ header {
 }
 
 .schedule {
-    margin: 10% 5% 25% 10%;
+    margin: 10% 5% 35% 10%;
     width: 25%;
     height: 30vh;
     float: left;
@@ -98,12 +98,12 @@ header {
 #img-3 {
     width: 50%;
     height: 30%;
-    margin: 10% 5% 5% 5%;
+    margin: 10% 5% 10% 5%;
     float: right;
 }
 
 .info {
-    margin: 3% 5% 3% 5%;
+    margin: 9% 5% 5% 5%;
     width: 30%;
     float: right;
     font-size: 20px;
@@ -117,7 +117,7 @@ header {
 #img-2 {
     width: 50%;
     height: 40%;
-    margin: 5% 5% 15% 5%;
+    margin: 5% 5% 20% 5%;
     float: left;
 }
 
